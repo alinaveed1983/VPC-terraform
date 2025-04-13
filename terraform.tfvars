@@ -1,5 +1,5 @@
 vpc_cidr_block           = "10.1.0.0/26"
-#vpc_name                 = "my-prod-vpc1"
+vpc_name                 = "my-prod-vpc1"
 
 public_subnet_1_cidr     = "10.1.0.0/28"
 public_subnet_2_cidr     = "10.1.0.16/28"
