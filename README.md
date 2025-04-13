@@ -19,9 +19,9 @@ This Terraform project creates a custom VPC in AWS with the following components
 
 ## Usage
 
-### Initialize Terraform
+### Terraform Commands
 ```bash
-AWS_PROFILE=naveed1-aws
+aws sts get-caller-identity --profile naveed1-aws
 terraform init
 terraform plan
 terraform apply
